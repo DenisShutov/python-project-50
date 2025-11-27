@@ -19,6 +19,15 @@ def generate_diff(file_path1, file_path2):
                 data_diff[f'  {key}'] = value
         if key not in data1 and key in data2:
             data_diff[f'+ {key}'] = value
-    data_string = json.dumps(data_diff, indent=2)
+    # data_string = json.dumps(data_diff, indent=2)
+    # return data_string
 
-    return data_string
+    res = ''
+    for k, v in data_diff.items():
+        if v is False:
+            v = 'false'
+        if v is True:
+            v = 'true'
+        res += f'  {k}: {v}\n'
+
+    return '{\n' + res + '}'
