@@ -3,4 +3,4 @@
 
 ### Пример использования:
 Найти различия между файлами JSON
-[![asciicast](https://asciinema.org/a/EnvsM7htUPJWP5PyxLFnc0CY4.svg)](https://asciinema.org/a/EnvsM7htUPJWP5PyxLFnc0CY4)
+[![asciicast](https://asciinema.org/a/EnvsM7htUPJWP5PyxLFnc0CY4.svg?size=small)](https://asciinema.org/a/EnvsM7htUPJWP5PyxLFnc0CY4)
