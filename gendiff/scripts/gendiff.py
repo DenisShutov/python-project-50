@@ -1,6 +1,6 @@
 import argparse
 import json
-
+from gendiff import generate_diff
 
 def main():
     parser = argparse.ArgumentParser(
@@ -12,11 +12,13 @@ def main():
     parser.add_argument('-f', '--format', help='set format of output')
 
     args = parser.parse_args()
-    print(args.first_file, args.second_file)
+    # print(args.first_file, args.second_file)
 
-    data1 = json.load(open(args.first_file))
-    data2 = json.load(open(args.second_file))
-    print(data1, data2)
+    diff = generate_diff(args.first_file, args.second_file)
+    # data1 = json.load(open(args.first_file))
+    # data2 = json.load(open(args.second_file))
+    # print(data1, data2)
+    print(diff)
 
 if __name__ == '__main__':
     main()
