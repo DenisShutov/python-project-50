@@ -27,5 +27,5 @@ test-coverage:
 test-short:
 	uv run pytest --cov=gendiff
 
-# Объявляем, что это цели-команды, а не файлы
+# Объявляем, что это цели-команды, а не файл
 .PHONY: install test lint selfcheck check build
