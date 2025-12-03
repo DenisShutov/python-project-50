@@ -8,7 +8,7 @@
 
 ### Пример использования:
 Найти различия между файлами JSON
-[![asciicast](https://asciinema.org/a/EnvsM7htUPJWP5PyxLFnc0CY4.svg?size=small)](https://asciinema.org/a/EnvsM7htUPJWP5PyxLFnc0CY4)
+[![asciicast](https://asciinema.org/a/EnvsM7htUPJWP5PyxLFnc0CY4.)](https://asciinema.org/a/EnvsM7htUPJWP5PyxLFnc0CY4?size=small)
 
 Найти различия между файлами YAML
 [![asciicast](https://asciinema.org/a/d5zNAoV1W8rpQhWzlDGpOwFB1.svg)](https://asciinema.org/a/d5zNAoV1W8rpQhWzlDGpOwFB1?t=15)
