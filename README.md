@@ -11,4 +11,4 @@
 [![asciicast](https://asciinema.org/a/EnvsM7htUPJWP5PyxLFnc0CY4.svg?size=small)](https://asciinema.org/a/EnvsM7htUPJWP5PyxLFnc0CY4)
 
 Найти различия между файлами YAML
-[![asciicast](https://asciinema.org/a/d5zNAoV1W8rpQhWzlDGpOwFB1.svg)](https://asciinema.org/a/d5zNAoV1W8rpQhWzlDGpOwFB1)
+[![asciicast](https://asciinema.org/a/d5zNAoV1W8rpQhWzlDGpOwFB1.svg?t=15)](https://asciinema.org/a/d5zNAoV1W8rpQhWzlDGpOwFB1)
