@@ -27,5 +27,9 @@ test-coverage:
 test-short:
 	uv run pytest --cov=gendiff
 
+#Переустановить новую версию пакета
+reinstall:
+	uv tool install --force dist/*.whl
+	
 # Объявляем, что это цели-команды, а не файл
 .PHONY: install test lint selfcheck check build
