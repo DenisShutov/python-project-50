@@ -8,7 +8,7 @@
 
 ### Пример использования:
 Найти различия между файлами JSON
-<a href="https://asciinema.org/a/EnvsM7htUPJWP5PyxLFnc0CY4?t=15" target="_blank"><img src="https://asciinema.org/a/EnvsM7htUPJWP5PyxLFnc0CY4.svg" width="600"/></a>
+<a href="https://asciinema.org/a/EnvsM7htUPJWP5PyxLFnc0CY4?t=6" target="_blank"><img src="https://asciinema.org/a/EnvsM7htUPJWP5PyxLFnc0CY4.svg" width="600"/></a>
 
 Найти различия между файлами YAML
 <a href="https://asciinema.org/a/d5zNAoV1W8rpQhWzlDGpOwFB1?t=15" target="_blank"><img src="https://asciinema.org/a/d5zNAoV1W8rpQhWzlDGpOwFB1.svg" width="600"/></a>
