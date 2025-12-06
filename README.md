@@ -14,7 +14,4 @@
 [![asciicast](https://asciinema.org/a/d5zNAoV1W8rpQhWzlDGpOwFB1.svg)](https://asciinema.org/a/d5zNAoV1W8rpQhWzlDGpOwFB1?t=15)
 
 Найти различия, если в файле есть вложенные структуры
-[![asciicast](https://asciinema.org/a/23h4ecUtxH8cvSHET5zmIxWUd.svg)](https://asciinema.org/a/23h4ecUtxH8cvSHET5zmIxWUd?t=20)
-
-
-<a href="https://asciinema.org/a/23h4ecUtxH8cvSHET5zmIxWUd" target="_blank"><img src="https://asciinema.org/a/23h4ecUtxH8cvSHET5zmIxWUd.svg" width="400"/></a>
+<a href="https://asciinema.org/a/23h4ecUtxH8cvSHET5zmIxWUd" target="_blank"><img src="https://asciinema.org/a/23h4ecUtxH8cvSHET5zmIxWUd.svg" width="600"/></a>
