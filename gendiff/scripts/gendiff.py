@@ -15,11 +15,11 @@ def main():
     args = parser.parse_args()
     # print(args.first_file, args.second_file)
 
-    diff = generate_diff(args.first_file, args.second_file)
+    diff_result = generate_diff(args.first_file, args.second_file)
     # data1 = json.load(open(args.first_file))
     # data2 = json.load(open(args.second_file))
     # print(data1, data2)
-    print(diff)
+    print(diff_result)
 
 
 if __name__ == '__main__':
