@@ -16,5 +16,5 @@
 Найти различия, если в файле есть вложенные структуры
 [![asciicast](https://asciinema.org/a/23h4ecUtxH8cvSHET5zmIxWUd.svg)](https://asciinema.org/a/23h4ecUtxH8cvSHET5zmIxWUd?t=20)
 
-<div style="width: 400px; overflow: hidden;">
-<a href="https://asciinema.org/a/23h4ecUtxH8cvSHET5zmIxWUd" target="_blank"><img src="https://asciinema.org/a/23h4ecUtxH8cvSHET5zmIxWUd.svg" width="400" style="width: 400px;" /></a></div>
+
+<a href="https://asciinema.org/a/23h4ecUtxH8cvSHET5zmIxWUd" target="_blank"><img src="https://asciinema.org/a/23h4ecUtxH8cvSHET5zmIxWUd.svg" width="400" style="width: 400px;" /></a>
