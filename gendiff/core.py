@@ -1,5 +1,5 @@
 from gendiff.diff import diff
-from gendiff.formatter import stylish
+from gendiff.formatters import plain, stylish
 from gendiff.parser import parsing
 
 
@@ -11,6 +11,8 @@ def generate_diff(file_path1, file_path2, format_name='stylish'):
     
     if format_name == 'stylish':
         return stylish(data_diff)
+    if format_name == 'plain':
+        return plain(data_diff)
     
     # data3 = data1 | data2
     # data_sort = dict(sorted(data3.items()))
