@@ -16,5 +16,8 @@
 Найти различия, если в файле есть вложенные структуры
 <a href="https://asciinema.org/a/23h4ecUtxH8cvSHET5zmIxWUd?t=20" target="_blank"><img src="https://asciinema.org/a/23h4ecUtxH8cvSHET5zmIxWUd.svg" width="600"/></a>
 
-Использования форматтера "plain"
+Использование форматтера "plain"
 <a href="https://asciinema.org/a/0wwgFTbgPZLvuEW0dPw0LKb1c?t=40" target="_blank"><img src="https://asciinema.org/a/0wwgFTbgPZLvuEW0dPw0LKb1c.svg" width="600" /></a>
+
+Использование форматтера "json"
+<a href="https://asciinema.org/a/1oinMaixNDVsZ1fs8YwftIfZy?t=45" target="_blank"><img src="https://asciinema.org/a/1oinMaixNDVsZ1fs8YwftIfZy.svg" width="600"/></a>
