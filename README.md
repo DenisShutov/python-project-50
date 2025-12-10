@@ -24,17 +24,17 @@ make install
 ```
 
 ### Demo:
-##### Compare JSON Files
+#### Compare JSON Files
 <a href="https://asciinema.org/a/gdQnnEjAbQ48BRasIrBXaEfRc" target="_blank"><img src="https://asciinema.org/a/gdQnnEjAbQ48BRasIrBXaEfRc.svg" width="600"/></a>
 
-##### Compare YAML Files
+#### Compare YAML Files
 <a href="https://asciinema.org/a/1EX2V5CH7G0RdiWuyRxSTGlsa?t=30" target="_blank"><img src="https://asciinema.org/a/1EX2V5CH7G0RdiWuyRxSTGlsa.svg" width="600"/></a>
 
-##### Compare Files with Nested Structuresы
+#### Compare Files with Nested Structuresы
 <a href="https://asciinema.org/a/e1QGGu3KEya5SjjzQIHx1bdBi?t=30" target="_blank"><img src="https://asciinema.org/a/e1QGGu3KEya5SjjzQIHx1bdBi.svg" width="600"/></a>
 
-##### Using "plain" Formatter
+#### Using "plain" Formatter
 <a href="https://asciinema.org/a/0wwgFTbgPZLvuEW0dPw0LKb1c?t=40" target="_blank"><img src="https://asciinema.org/a/0wwgFTbgPZLvuEW0dPw0LKb1c.svg" width="600" /></a>
 
-##### Using "json" Formatter
+#### Using "json" Formatter
 <a href="https://asciinema.org/a/1oinMaixNDVsZ1fs8YwftIfZy?t=45" target="_blank"><img src="https://asciinema.org/a/1oinMaixNDVsZ1fs8YwftIfZy.svg" width="600"/></a>
