@@ -9,8 +9,8 @@ A program that finds differences between two files.
 
 ### Supported Formats:
 
-Input: JSON, YAML/YML
-Output: stylish, plain, JSON
+**Input:** JSON, YAML/YML
+**Output:** stylish, plain, JSON
 
 ### Options:
 
