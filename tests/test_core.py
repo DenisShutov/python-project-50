@@ -48,3 +48,13 @@ def test_plain(file3, file4, expected_file):
     result = generate_diff(file3, file4, 'plain')
     expected = read_file(expected_file)
     assert result.strip() == expected.strip()
+
+
+@pytest.mark.parametrize('file3, file4, expected_file', [
+    ('tests/test_data/file3.json', 'tests/test_data/file4.json', 'tests/test_data/expected_result_json.txt'),
+    ('tests/test_data/file3.yaml', 'tests/test_data/file4.yaml', 'tests/test_data/expected_result_json.txt'),
+])
+def test_json(file3, file4, expected_file):
+    result = generate_diff(file3, file4, 'json')
+    expected = read_file(expected_file)
+    assert result.strip() == expected.strip()
