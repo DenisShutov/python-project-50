@@ -9,12 +9,12 @@ A program that finds differences between two files.
 
 ### Supported Formats:
 
-**Input:** JSON, YAML/YML
+**Input:** JSON, YAML/YML  
 **Output:** stylish, plain, JSON
 
 ### Options:
 
--f, --format FORMAT - output format (stylish, plain, json), default: stylish
+-f, --format FORMAT - output format (stylish, plain, json), default: stylish  
 -h, --help - show help message
 
 
