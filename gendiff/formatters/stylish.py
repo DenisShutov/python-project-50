@@ -1,17 +1,33 @@
 def stylish(data, depth=1):
-    indent = (depth * 4 - 2) * ' '
-    res = ''
+    indent_prefix = (depth * 4 - 2) * ' '
+    indent = (depth * 4) * ' '
+    prefix = ('  ', '+ ', '- ')
+    lines = []
     for k, v in data.items():
         if not isinstance(v, dict):
-            if v is False:
-                v = 'false'
-            elif v is True:
-                v = 'true'
-            elif v is None:
-                v = 'null'
-            res += f'{indent}{k}: {v}\n'
+            if k[:2] in prefix:
+                lines.append(f'{indent_prefix}{k}: {format_val(v)}')
+            else:
+                lines.append(f'{indent}{k}: {format_val(v)}')
         else:
-            res += f'{indent}{k}: {{\n{stylish(v, depth + 1)}{indent}}}\n'
+            if k[:2] in prefix:
+                lines.append(f'{indent_prefix}{k}: '
+                             f'{{\n{stylish(v, depth + 1)}\n{indent}}}')
+            else:
+                lines.append(f'{indent}{k}: '
+                             f'{{\n{stylish(v, depth + 1)}\n{indent}}}')
+    result = '\n'.join(lines)
+
     if depth == 1:
-        res = '{\n' + res + '}'
-    return res
+        return '{\n' + result + '\n}'
+    return result
+
+
+def format_val(v):
+    if v is False:
+        v = 'false'
+    elif v is True:
+        v = 'true'
+    elif v is None:
+        v = 'null'
+    return v
