@@ -1,6 +1,5 @@
 [![Actions Status](https://github.com/DenisShutov/python-project-50/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/DenisShutov/python-project-50/actions)
 [![Python CI](https://github.com/DenisShutov/python-project-50/actions/workflows/pyci.yml/badge.svg)](https://github.com/DenisShutov/python-project-50/actions/workflows/pyci.yml)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=DenisShutov_python-project-50&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=DenisShutov_python-project-50)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=DenisShutov_python-project-50&metric=coverage)](https://sonarcloud.io/summary/new_code?id=DenisShutov_python-project-50)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=DenisShutov_python-project-50&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=DenisShutov_python-project-50)
 
@@ -20,7 +19,14 @@ A program that finds differences between two files.
 
 ### Setup
 ```bash
+#Clone the repository
+git clone https://github.com/DenisShutov/python-project-50
+
+#Install dependencies and package
 make install
+
+# Verify installation
+gendiff --help
 ```
 
 ### Demo:
